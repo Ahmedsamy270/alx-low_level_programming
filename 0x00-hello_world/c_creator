@@ -10,7 +10,8 @@ echo '/**
 */
 int main(void)
 {
-    return (0);
+	
+return (0);
 }' >> ${var}
 chmod u+x ${var}
 vi ${var}
