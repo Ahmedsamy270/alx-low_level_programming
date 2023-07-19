@@ -15,3 +15,4 @@ for (line = 0; line <= 9; line++)
 	_putchar(ch);
 	_putchar('\n');
 }
+}
