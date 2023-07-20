@@ -1,0 +1,20 @@
+#!/bin/bash 
+
+echo 'input file name '
+read var
+echo 'input Description'
+read des
+
+echo -e '#include <stdlib.h>\n''#include <time.h>\n''#include <stdio.h>\n''#include "main.h"\n' > ${var}
+echo '/**
+* main - Entry point
+*Description: '${des}'
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+
+return (0);
+}' >> ${var}
+chmod u+x ${var}
+vi ${var}
