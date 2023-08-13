@@ -1,0 +1,29 @@
+#!/bin/bash 
+
+echo 'input file name '
+read name
+echo ' enter des'
+read des
+echo ' type '
+read var
+{if = " "
+#while ='(" ")'
+#for = '(" ")'	
+#srand="(srand(time(0));
+n = rand() - RAND_MAX / 2;
+your code)"}
+#name=$1
+#des=$2
+echo -e '#include <stdlib.h>\n''#include <time.h>\n''#include <stdio.h>\n' > ${name}
+echo '/**
+* main - Entry point
+*Description: '${des}'
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+'${var}'
+return (0);
+}' >> ${name}
+chmod u+x ${name}
+vi ${name}
