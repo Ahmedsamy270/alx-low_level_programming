@@ -1,18 +1,16 @@
 #include "main.h"
-/**
- * _print_rev_recursi - function that prints a string
- * @s : is a sting to be printed
- * @i : is an integer for loop
- */
 
+/**
+ * _puts_recursion - prints a string, followed by a new line
+ * @s: string to print
+ */
 void _puts_recursion(char *s)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0' ; i++)
+	if (*s == '\0')
 	{
-		_putchar(s[i]);
+		_putchar('\n');
+		return;
 	}
-	_putchar ('\n');
-
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
