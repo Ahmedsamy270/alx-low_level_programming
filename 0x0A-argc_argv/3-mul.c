@@ -5,7 +5,7 @@
  * main - print the multiply of 2 numbers
  * @argc: the number of argument
  * @argv: the number of array
- * Return: 1-Erorr , 0-Success
+ * Return: 1-Fail , 0-Success
  **/
 
 int main(int argc, char *argv[])
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Erorr\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
