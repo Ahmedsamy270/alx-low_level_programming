@@ -10,6 +10,9 @@
  *
  * Return: Nothing.
  */
+
+void free_grid(int **grid, int height);
+void alloc_grid(int **grid, int height);
 void print_grid(int **grid, int width, int height)
 {
     int w;
