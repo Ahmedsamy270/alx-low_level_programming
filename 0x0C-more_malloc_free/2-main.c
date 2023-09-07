@@ -10,6 +10,7 @@
  *
  * Return: Nothing.
  */
+void *_calloc(unsigned int nmemb, unsigned int size);
 void simple_print_buffer(char *buffer, unsigned int size)
 {
     unsigned int i;
