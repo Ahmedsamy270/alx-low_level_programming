@@ -10,6 +10,7 @@
  *
  * Return: Nothing.
  */
+int *array_range(int min, int max);
 void simple_print_buffer(int *buffer, unsigned int size)
 {
     unsigned int i;
