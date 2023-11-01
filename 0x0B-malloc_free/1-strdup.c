@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- *
- *
+ * *_strdup - is a function that print a string
+ * @str: is a pointer to a string
+ * Return: Pointer Of Anew String
  */
 
 char *_strdup(char *str)
 {
 	char *p;
- 	unsigned int i;
+	unsigned int i;
 
 	if (str == NULL)
 		return (0);
@@ -20,5 +21,5 @@ char *_strdup(char *str)
 		p[i] = str[i];
 	}
 	p[i] = '\0';
-	return(p);
+	return (p);
 }
