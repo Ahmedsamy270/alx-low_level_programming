@@ -27,7 +27,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (tmp2);
 	}
 
-	for (i = 0; tmp != NULL && i < idx; i++)
+	for (i = 0; tmp && i < idx; i++)
 	{
 		if (i == idx - 1)
 		{
