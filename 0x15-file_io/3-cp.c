@@ -23,18 +23,18 @@ char *create_buf(char *file)
 
 /**
  * close_file - is a function that close
- * @fc: is the file to be closed
+ * @fd: is the file to be closed
  */
 
-void close_file(int fc)
+void close_file(int fd)
 {
 	int i;
 
-	i = close(fc);
+	i = close(fd);
 
 	if (i == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fc %d\n", fc);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
