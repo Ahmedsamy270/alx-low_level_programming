@@ -40,5 +40,5 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		h = tmp;
 		*head = h;
 	}
-	return (*head);
+	return (tmp);
 }
